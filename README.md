@@ -36,9 +36,9 @@ $$
 with
 
 $$
-V_s = 0.5 k_{sx} \left[\left(\theta_c h_2 + \theta_{b1} h_3 - \psi_c b_2 + \psi_{b1} b_2\right)^2 + \left(\theta_c h_2 + \theta_{b1} h_3 + \psi_c b_2 - \psi_{b1} b_2\right)^2 \right. \\
-\left.+ \left(\theta_c h_2 + \theta_{b2} h_3 - \psi_c b_2 + \psi_{b2} b_2\right)^2 + \left(\theta_c h_2 + \theta_{b2} h_3 + \psi_c b_2 - \psi_{b2} b_2\right)^2\right] \ \\+ 0.5 k_{sy} \left[\left(y_c - \phi_c h_2 + \psi_c l_2 - y_{b1} - \phi_{b1} h_3\right)^2 + \left(y_c - \phi_c h_2 + \psi_c l_2 - y_{b1} - \phi_{b1} h_3\right)^2 \right.\\
-\left.+ \left(y_c - \phi_c h_2 - \psi_c l_2 - y_{b2} - \phi_{b2} h_3\right)^2 + \left(y_c - \phi_c h_2 - \psi_c l_2 - y_{b2} - \phi_{b2} h_3\right)^2\right] \ +\\ 0.5 k_{sz} \left[\left(z_c - \phi_c b_2 + \theta_c l_2 - z_{b1} + \phi_{b1} b_2\right)^2 + \left(z_c + \phi_c b_2 + \theta_c l_2 - z_{b1} - \phi_{b1} b_2\right)^2 \right.\\
+V_s = 0.5 k_{sx} \left[\left(\theta_c h_2 + \theta_{b1} h_3 - \psi_c b_2 + \psi_{b1} b_2\right)^2 + \left(\theta_c h_2 + \theta_{b1} h_3 + \psi_c b_2 - \psi_{b1} b_2\right)^2 \right. \\\\
+\left.+ \left(\theta_c h_2 + \theta_{b2} h_3 - \psi_c b_2 + \psi_{b2} b_2\right)^2 + \left(\theta_c h_2 + \theta_{b2} h_3 + \psi_c b_2 - \psi_{b2} b_2\right)^2\right] \\\\+ 0.5 k_{sy} \left[\left(y_c - \phi_c h_2 + \psi_c l_2 - y_{b1} - \phi_{b1} h_3\right)^2 + \left(y_c - \phi_c h_2 + \psi_c l_2 - y_{b1} - \phi_{b1} h_3\right)^2 \right.\\\\
+\left.+ \left(y_c - \phi_c h_2 - \psi_c l_2 - y_{b2} - \phi_{b2} h_3\right)^2 + \left(y_c - \phi_c h_2 - \psi_c l_2 - y_{b2} - \phi_{b2} h_3\right)^2\right] \ +\\\\ 0.5 k_{sz} \left[\left(z_c - \phi_c b_2 + \theta_c l_2 - z_{b1} + \phi_{b1} b_2\right)^2 + \left(z_c + \phi_c b_2 + \theta_c l_2 - z_{b1} - \phi_{b1} b_2\right)^2 \right.\\\\
 \left.+ \left(z_c - \phi_c b_2 - \theta_c l_2 - z_{b2} + \phi_{b2} b_2\right)^2 + \left(z_c + \phi_c b_2 - \theta_c l_2 - z_{b2} - \phi_{b2} b_2\right)^2\right]
 $$
 
