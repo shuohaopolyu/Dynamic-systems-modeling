@@ -52,16 +52,22 @@ $$ -->
 </p>
 with
 
-$$
+<!-- $$
 V_s = 0.5 k_{sx} \left[\left(\theta_c h_2 + \theta_{b1} h_3 - \psi_c b_2 + \psi_{b1} b_2\right)^2 + \left(\theta_c h_2 + \theta_{b1} h_3 + \psi_c b_2 - \psi_{b1} b_2\right)^2 \right. \\\\
 \left.+ \left(\theta_c h_2 + \theta_{b2} h_3 - \psi_c b_2 + \psi_{b2} b_2\right)^2 + \left(\theta_c h_2 + \theta_{b2} h_3 + \psi_c b_2 - \psi_{b2} b_2\right)^2\right] \\\\+ 0.5 k_{sy} \left[\left(y_c - \phi_c h_2 + \psi_c l_2 - y_{b1} - \phi_{b1} h_3\right)^2 + \left(y_c - \phi_c h_2 + \psi_c l_2 - y_{b1} - \phi_{b1} h_3\right)^2 \right.\\\\
 \left.+ \left(y_c - \phi_c h_2 - \psi_c l_2 - y_{b2} - \phi_{b2} h_3\right)^2 + \left(y_c - \phi_c h_2 - \psi_c l_2 - y_{b2} - \phi_{b2} h_3\right)^2\right] \ +\\\\ 0.5 k_{sz} \left[\left(z_c - \phi_c b_2 + \theta_c l_2 - z_{b1} + \phi_{b1} b_2\right)^2 + \left(z_c + \phi_c b_2 + \theta_c l_2 - z_{b1} - \phi_{b1} b_2\right)^2 \right.\\\\
 \left.+ \left(z_c - \phi_c b_2 - \theta_c l_2 - z_{b2} + \phi_{b2} b_2\right)^2 + \left(z_c + \phi_c b_2 - \theta_c l_2 - z_{b2} - \phi_{b2} b_2\right)^2\right]
-$$
+$$ -->
+<p align="center">
+<img src="https://latex.codecogs.com/svg.image?V_s=0.5&space;k_{sx}\left[\left(\theta_c&space;h_2&plus;\theta_{b1}h_3-\psi_c&space;b_2&plus;\psi_{b1}b_2\right)^2&plus;\left(\theta_c&space;h_2&plus;\theta_{b1}h_3&plus;\psi_c&space;b_2-\psi_{b1}b_2\right)^2\right.\\\left.&plus;\left(\theta_c&space;h_2&plus;\theta_{b2}h_3-\psi_c&space;b_2&plus;\psi_{b2}b_2\right)^2&plus;\left(\theta_c&space;h_2&plus;\theta_{b2}h_3&plus;\psi_c&space;b_2-\psi_{b2}b_2\right)^2\right]\\&plus;0.5&space;k_{sy}\left[\left(y_c-\phi_c&space;h_2&plus;\psi_c&space;l_2-y_{b1}-\phi_{b1}h_3\right)^2&plus;\left(y_c-\phi_c&space;h_2&plus;\psi_c&space;l_2-y_{b1}-\phi_{b1}h_3\right)^2\right.\\\left.&plus;\left(y_c-\phi_c&space;h_2-\psi_c&space;l_2-y_{b2}-\phi_{b2}h_3\right)^2&plus;\left(y_c-\phi_c&space;h_2-\psi_c&space;l_2-y_{b2}-\phi_{b2}h_3\right)^2\right]\\&plus;0.5&space;k_{sz}\left[\left(z_c-\phi_c&space;b_2&plus;\theta_c&space;l_2-z_{b1}&plus;\phi_{b1}b_2\right)^2&plus;\left(z_c&plus;\phi_c&space;b_2&plus;\theta_c&space;l_2-z_{b1}-\phi_{b1}b_2\right)^2\right.\\\left.&plus;\left(z_c-\phi_c&space;b_2-\theta_c&space;l_2-z_{b2}&plus;\phi_{b2}b_2\right)^2&plus;\left(z_c&plus;\phi_c&space;b_2-\theta_c&space;l_2-z_{b2}-\phi_{b2}b_2\right)^2\right]" />
+</p>
 
 and
 
-$$
+<p align="center">
+<img src="https://latex.codecogs.com/svg.image?V_p=0.5&space;k_{px}\left[(\psi_{b1}b_1-\theta_{b1}h_1-\psi_{w1}b_1)^2&plus;(\psi_{b1}b_1&plus;\theta_{b1}h_1-\psi_{w1}b_1)^2&plus;\right.\\\left.(\psi_{b1}b_1-\theta_{b1}h_1-\psi_{w2}b_1)^2&plus;(\psi_{b1}b_1&plus;\theta_{b1}h_1-\psi_{w2}b_1)^2\right.\\\left.&plus;(\psi_{b2}b_1-\theta_{b2}h_1-\psi_{w3}b_1)^2&plus;(\psi_{b2}b_1&plus;\theta_{b2}h_1-\psi_{w3}b_1)^2\right.\\\left.&plus;(\psi_{b2}b_1-\theta_{b2}h_1-\psi_{w4}b_1)^2&plus;(\psi_{b2}b_1&plus;\theta_{b2}h_1-\psi_{w4}b_1)^2\right]\\&plus;0.5&space;k_{py}\left[(y_{b1}-\phi_{b1}h_1&plus;\psi_{b1}l_1-y_{w1})^2&plus;(y_{b1}-\phi_{b1}h_1&plus;\psi_{b1}l_1-y_{w1})^2\right.\\\left.&plus;(y_{b1}-\phi_{b1}h_1-\psi_{b1}l_1-y_{w2})^2&plus;(y_{b1}-\phi_{b1}h_1-\psi_{b1}l_1-y_{w2})^2\right.\\\left.&plus;(y_{b2}-\phi_{b2}h_1&plus;\psi_{b2}l_1-y_{w3})^2&plus;(y_{b2}-\phi_{b2}h_1&plus;\psi_{b2}l_1-y_{w3})^2\right.\\\left.&plus;(y_{b2}-\phi_{b2}h_1-\psi_{b2}l_1-y_{w4})^2&plus;(y_{b2}-\phi_{b2}h_1-\psi_{b2}l_1-y_{w4})^2\right]\\&plus;0.5&space;k_{pz}\left[(z_{b1}&plus;\phi_{b1}b_1-\theta_{b1}l_1-z_{w1}-\phi_{w1}b_1)^2&plus;(z_{b1}-\phi_{b1}b_1-\theta_{b1}l_1-z_{w1}&plus;\phi_{w1}b_1)^2\right.\\\left.&plus;(z_{b1}&plus;\phi_{b1}b_1&plus;\theta_{b1}l_1-z_{w2}-\phi_{w2}b_1)^2&plus;(z_{b1}-\phi_{b1}b_1&plus;\theta_{b1}l_1-z_{w2}&plus;\phi_{w2}b_1)^2\right.\\\left.&plus;(z_{b2}&plus;\phi_{b2}b_1-\theta_{b2}l_1-z_{w3}-\phi_{w3}b_1)^2&plus;(z_{b2}-\phi_{b2}b_1-\theta_{b2}l_1-z_{w3}&plus;\phi_{w3}b_1)^2\right.\\\left.&plus;(z_{b2}&plus;\phi_{b2}b_1&plus;\theta_{b2}l_1-z_{w4}-\phi_{w4}b_1)^2&plus;(z_{b2}-\phi_{b2}b_1&plus;\theta_{b2}l_1-z_{w4}&plus;\phi_{w4}b_1)^2\right]" />
+</p>
+<!-- $$
 V_p = 0.5 k_{px} \left[ ( \psi_{b1} b_1 - \theta_{b1} h_1 - \psi_{w1} b_1 )^2 + ( \psi_{b1} b_1 + \theta_{b1} h_1 - \psi_{w1} b_1 )^2 + \right.\\
 \left. ( \psi_{b1} b_1 - \theta_{b1} h_1 - \psi_{w2} b_1 )^2 + ( \psi_{b1} b_1 + \theta_{b1} h_1 - \psi_{w2} b_1 )^2 \right.\\
 \left.+ ( \psi_{b2} b_1 - \theta_{b2} h_1 - \psi_{w3} b_1 )^2 + ( \psi_{b2} b_1 + \theta_{b2} h_1 - \psi_{w3} b_1 )^2 \right.\\
@@ -74,7 +80,7 @@ V_p = 0.5 k_{px} \left[ ( \psi_{b1} b_1 - \theta_{b1} h_1 - \psi_{w1} b_1 )^2 + 
 \left.+ ( z_{b1} + \phi_{b1} b_1 + \theta_{b1} l_1 - z_{w2} - \phi_{w2} b_1 )^2 + ( z_{b1} - \phi_{b1} b_1 + \theta_{b1} l_1 - z_{w2} + \phi_{w2} b_1 )^2 \right.\\
 \left.+ ( z_{b2} + \phi_{b2} b_1 - \theta_{b2} l_1 - z_{w3} - \phi_{w3} b_1 )^2 + ( z_{b2} - \phi_{b2} b_1 - \theta_{b2} l_1 - z_{w3} + \phi_{w3} b_1 )^2 \right.\\
 \left.+ ( z_{b2} + \phi_{b2} b_1 + \theta_{b2} l_1 - z_{w4} - \phi_{w4} b_1 )^2 + ( z_{b2} - \phi_{b2} b_1 + \theta_{b2} l_1 - z_{w4} + \phi_{w4} b_1 )^2 \right]
-$$
+$$ -->
 
 and
 
