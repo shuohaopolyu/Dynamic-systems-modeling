@@ -248,39 +248,3 @@ class MultiDOF:
             return sol.y[self.DOF + self.resp_dof, :]
         elif type == "displacement":
             return sol.y[self.resp_dof, :]
-
-
-class FRFs:
-    """
-    Establishing the model using the measured frequency response functions.
-    """
-
-    def __init__(self, sys, freqs):
-        """
-        freqs: a list of frequencies
-        """
-        self.sys = sys
-        self.freqs = freqs
-
-    def frf_2_mkv(self, frf_mtx):
-        pass
-
-    def H(self, freq):
-        """
-        freq: a frequency
-        Return the frequency response function of the system at the given frequency
-        """
-        pass
-
-    def H_mtx(self):
-        """
-        Return the frequency response function matrix of the system
-        """
-        pass
-
-    def H_mtx_plot(self, type="abs"):
-        """
-        type: 'abs', 'real', 'imag'
-        Plot the frequency response function matrix of the system
-        """
-        pass
