@@ -1,6 +1,8 @@
 ## Construction of the 31-DOF vehicle dynamical model
 
-The full railway vehicle model constructed in this paper is schematically shown as follows, which consists of a car body, two bogies, and four wheelsets. The bogies and car body exhibit five types of motion (lateral, vertical, roll, yaw, and pitch), while the wheelsets have four (lateral, vertical, roll, and yaw).
+The full railway vehicle model constructed is schematically shown as follows, which consists of a car body, two bogies, and four wheelsets. The bogies and car body exhibit five types of motion (lateral, vertical, roll, yaw, and pitch), while the wheelsets have four (lateral, vertical, roll, and yaw).
+
+This program aims to derive the system matrices (mass, stiffness and damping matrices) of the vehicle model based on the virtual work principle.
 
 <p align="center">
     <img width="800" src="Images/F_vehicle.png" alt="Schematic diagram of 31-DOF railway vehicle mode">
