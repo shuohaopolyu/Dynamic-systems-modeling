@@ -65,7 +65,16 @@ $$ -->
 and
 
 <p align="center">
-<img src="https://latex.codecogs.com/svg.image?V_p=0.5&space;k_{px}\left[(\psi_{b1}b_1-\theta_{b1}h_1-\psi_{w1}b_1)^2&plus;(\psi_{b1}b_1&plus;\theta_{b1}h_1-\psi_{w1}b_1)^2&plus;\right.\\\left.(\psi_{b1}b_1-\theta_{b1}h_1-\psi_{w2}b_1)^2&plus;(\psi_{b1}b_1&plus;\theta_{b1}h_1-\psi_{w2}b_1)^2\right.\\\left.&plus;(\psi_{b2}b_1-\theta_{b2}h_1-\psi_{w3}b_1)^2&plus;(\psi_{b2}b_1&plus;\theta_{b2}h_1-\psi_{w3}b_1)^2\right.\\\left.&plus;(\psi_{b2}b_1-\theta_{b2}h_1-\psi_{w4}b_1)^2&plus;(\psi_{b2}b_1&plus;\theta_{b2}h_1-\psi_{w4}b_1)^2\right]\\&plus;0.5&space;k_{py}\left[(y_{b1}-\phi_{b1}h_1&plus;\psi_{b1}l_1-y_{w1})^2&plus;(y_{b1}-\phi_{b1}h_1&plus;\psi_{b1}l_1-y_{w1})^2\right.\\\left.&plus;(y_{b1}-\phi_{b1}h_1-\psi_{b1}l_1-y_{w2})^2&plus;(y_{b1}-\phi_{b1}h_1-\psi_{b1}l_1-y_{w2})^2\right.\\\left.&plus;(y_{b2}-\phi_{b2}h_1&plus;\psi_{b2}l_1-y_{w3})^2&plus;(y_{b2}-\phi_{b2}h_1&plus;\psi_{b2}l_1-y_{w3})^2\right.\\\left.&plus;(y_{b2}-\phi_{b2}h_1-\psi_{b2}l_1-y_{w4})^2&plus;(y_{b2}-\phi_{b2}h_1-\psi_{b2}l_1-y_{w4})^2\right]\\&plus;0.5&space;k_{pz}\left[(z_{b1}&plus;\phi_{b1}b_1-\theta_{b1}l_1-z_{w1}-\phi_{w1}b_1)^2&plus;(z_{b1}-\phi_{b1}b_1-\theta_{b1}l_1-z_{w1}&plus;\phi_{w1}b_1)^2\right.\\\left.&plus;(z_{b1}&plus;\phi_{b1}b_1&plus;\theta_{b1}l_1-z_{w2}-\phi_{w2}b_1)^2&plus;(z_{b1}-\phi_{b1}b_1&plus;\theta_{b1}l_1-z_{w2}&plus;\phi_{w2}b_1)^2\right.\\\left.&plus;(z_{b2}&plus;\phi_{b2}b_1-\theta_{b2}l_1-z_{w3}-\phi_{w3}b_1)^2&plus;(z_{b2}-\phi_{b2}b_1-\theta_{b2}l_1-z_{w3}&plus;\phi_{w3}b_1)^2\right.\\\left.&plus;(z_{b2}&plus;\phi_{b2}b_1&plus;\theta_{b2}l_1-z_{w4}-\phi_{w4}b_1)^2&plus;(z_{b2}-\phi_{b2}b_1&plus;\theta_{b2}l_1-z_{w4}&plus;\phi_{w4}b_1)^2\right]" />
+<img src="https://latex.codecogs.com/svg.image?V_p=V_{px}&plus;V_{py}&plus;V_{pz}" />
+</p>
+<p align="center">
+<img src="https://latex.codecogs.com/svg.image?V_{px}=0.5&space;k_{px}\left[(\psi_{b1}b_1-\theta_{b1}h_1-\psi_{w1}b_1)^2&plus;(\psi_{b1}b_1&plus;\theta_{b1}h_1-\psi_{w1}b_1)^2&plus;\right.\\\left.(\psi_{b1}b_1-\theta_{b1}h_1-\psi_{w2}b_1)^2&plus;(\psi_{b1}b_1&plus;\theta_{b1}h_1-\psi_{w2}b_1)^2\right.\\\left.&plus;(\psi_{b2}b_1-\theta_{b2}h_1-\psi_{w3}b_1)^2&plus;(\psi_{b2}b_1&plus;\theta_{b2}h_1-\psi_{w3}b_1)^2\right.\\\left.&plus;(\psi_{b2}b_1-\theta_{b2}h_1-\psi_{w4}b_1)^2&plus;(\psi_{b2}b_1&plus;\theta_{b2}h_1-\psi_{w4}b_1)^2\right]" />
+</p>
+<p align="center">
+<img src="https://latex.codecogs.com/svg.image?V_{py}=0.5&space;k_{py}\left[(y_{b1}-\phi_{b1}h_1&plus;\psi_{b1}l_1-y_{w1})^2&plus;(y_{b1}-\phi_{b1}h_1&plus;\psi_{b1}l_1-y_{w1})^2\right.\\\left.&plus;(y_{b1}-\phi_{b1}h_1-\psi_{b1}l_1-y_{w2})^2&plus;(y_{b1}-\phi_{b1}h_1-\psi_{b1}l_1-y_{w2})^2\right.\\\left.&plus;(y_{b2}-\phi_{b2}h_1&plus;\psi_{b2}l_1-y_{w3})^2&plus;(y_{b2}-\phi_{b2}h_1&plus;\psi_{b2}l_1-y_{w3})^2\right.\\\left.&plus;(y_{b2}-\phi_{b2}h_1-\psi_{b2}l_1-y_{w4})^2&plus;(y_{b2}-\phi_{b2}h_1-\psi_{b2}l_1-y_{w4})^2\right]" />
+</p>
+<p align="center">
+<img src="https://latex.codecogs.com/svg.image?V_{pz}=0.5&space;k_{pz}\left[(z_{b1}&plus;\phi_{b1}b_1-\theta_{b1}l_1-z_{w1}-\phi_{w1}b_1)^2&plus;(z_{b1}-\phi_{b1}b_1-\theta_{b1}l_1-z_{w1}&plus;\phi_{w1}b_1)^2\right.\\\left.&plus;(z_{b1}&plus;\phi_{b1}b_1&plus;\theta_{b1}l_1-z_{w2}-\phi_{w2}b_1)^2&plus;(z_{b1}-\phi_{b1}b_1&plus;\theta_{b1}l_1-z_{w2}&plus;\phi_{w2}b_1)^2\right.\\\left.&plus;(z_{b2}&plus;\phi_{b2}b_1-\theta_{b2}l_1-z_{w3}-\phi_{w3}b_1)^2&plus;(z_{b2}-\phi_{b2}b_1-\theta_{b2}l_1-z_{w3}&plus;\phi_{w3}b_1)^2\right.\\\left.&plus;(z_{b2}&plus;\phi_{b2}b_1&plus;\theta_{b2}l_1-z_{w4}-\phi_{w4}b_1)^2&plus;(z_{b2}-\phi_{b2}b_1&plus;\theta_{b2}l_1-z_{w4}&plus;\phi_{w4}b_1)^2\right]" />
 </p>
 <!-- $$
 V_p = 0.5 k_{px} \left[ ( \psi_{b1} b_1 - \theta_{b1} h_1 - \psi_{w1} b_1 )^2 + ( \psi_{b1} b_1 + \theta_{b1} h_1 - \psi_{w1} b_1 )^2 + \right.\\
@@ -84,7 +93,7 @@ $$ -->
 
 and
 
-$$
+<!-- $$
 V_g =
     k_{gx}  \left[
         (\psi_{w1}  a) ^ 2 + (\psi_{w2}  a) ^ 2 + (\psi_{w3}  a) ^ 2 + (\psi_{w4}  a) ^ 2\right] \\
@@ -110,9 +119,10 @@ V_g =
       + (z_{w4} + \phi_{w4}  a) ^ 2
       + (z_{w4} - \phi_{w4}  a) ^ 2
     \right]
-
-
-$$
+$$ -->
+<p align="center">
+<img src="https://latex.codecogs.com/svg.image?V_g=k_{gx}\left[(\psi_{w1}a)^2&plus;(\psi_{w2}a)^2&plus;(\psi_{w3}a)^2&plus;(\psi_{w4}a)^2\right]\\&plus;0.5&space;k_{gy}\left[(y_{w1}&plus;\phi_{w1}h_w)^2&plus;(y_{w1}-\phi_{w1}h_w)^2&plus;(y_{w2}&plus;\phi_{w2}h_w)^2&plus;(y_{w2}-\phi_{w2}h_w)^2\right.\\\left.&plus;(y_{w3}&plus;\phi_{w3}h_w)^2&plus;(y_{w3}-\phi_{w3}h_w)^2&plus;(y_{w4}&plus;\phi_{w4}h_w)^2&plus;(y_{w4}-\phi_{w4}h_w)^2\right]\\&plus;0.5&space;k_{gz}\left[(z_{w1}&plus;\phi_{w1}a)^2&plus;(z_{w1}-\phi_{w1}a)^2&plus;(z_{w2}&plus;\phi_{w2}a)^2&plus;(z_{w2}-\phi_{w2}a)^2\right.\\\left.&plus;(z_{w3}&plus;\phi_{w3}a)^2&plus;(z_{w3}-\phi_{w3}a)^2&plus;(z_{w4}&plus;\phi_{w4}a)^2&plus;(z_{w4}-\phi_{w4}a)^2\right]" />
+</p>
 
 Mass and stiffness matrices $\mathbf{M}, \mathbf{K}$ can be obtained accordingly via the Euler-Lagrange equation, that is
 
