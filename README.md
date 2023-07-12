@@ -33,13 +33,14 @@ with
 T_b = \sum_{i=1}^2 T_{bi} = \sum_{i=1}^2 \frac{1}{2}\left[m_b(\dot{y}_{bi}^2+\dot{z}_{bi}^2)+I_{bx} \dot{\phi}_{bi}^2+I_{by} \dot{\theta}_{bi}^2+I_{bz} \dot{\psi}_{bi}^2 \right]
 $$ -->
 
-https://latex.codecogs.com/svg.image?T_b=\sum_{i=1}^2&space;T_{bi}=\sum_{i=1}^2\frac{1}{2}\left[m_b(\dot{y}_{bi}^2&plus;\dot{z}_{bi}^2)&plus;I_{bx}\dot{\phi}_{bi}^2&plus;I_{by}\dot{\theta}_{bi}^2&plus;I_{bz}\dot{\psi}_{bi}^2\right]
+<img src="https://latex.codecogs.com/svg.image?T_b=\sum_{i=1}^2&space;T_{bi}=\sum_{i=1}^2\frac{1}{2}\left[m_b(\dot{y}_{bi}^2&plus;\dot{z}_{bi}^2)&plus;I_{bx}\dot{\phi}_{bi}^2&plus;I_{by}\dot{\theta}_{bi}^2&plus;I_{bz}\dot{\psi}_{bi}^2\right]" />
 
 <!-- $$
 T_w = \sum_{i=1}^4 T_{wi} = \sum_{i=1}^4 \frac{1}{2}\left[m_b(\dot{y}_{wi}^2+\dot{z}_{wi}^2)  + I_{wx} \dot{\phi}_{wi}^2+I_{wz} \dot{\psi}_{wi}^2\right]
 $$ -->
 
-https://latex.codecogs.com/svg.image?T_w=\sum_{i=1}^4&space;T_{wi}=\sum_{i=1}^4\frac{1}{2}\left[m_b(\dot{y}_{wi}^2&plus;\dot{z}_{wi}^2)&plus;I_{wx}\dot{\phi}_{wi}^2&plus;I_{wz}\dot{\psi}_{wi}^2\right]
+<img src="https://latex.codecogs.com/svg.image?T_w=\sum_{i=1}^4&space;T_{wi}=\sum_{i=1}^4\frac{1}{2}\left[m_b(\dot{y}_{wi}^2&plus;\dot{z}_{wi}^2)&plus;I_{wx}\dot{\phi}_{wi}^2&plus;I_{wz}\dot{\psi}_{wi}^2\right]" />
+
 The potential energy of the vehicle system can be expressed as
 
 $$
