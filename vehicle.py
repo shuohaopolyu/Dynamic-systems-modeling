@@ -296,11 +296,11 @@ m_mtx = np.matrix(m_mtx.subs(params))
 k_mtx = LM.stiffness_matrix
 k_mtx = np.matrix(k_mtx.subs(params))
 
-with open("m_mtx.txt", "w") as f:
+with open("./sys_matrices/m_mtx.txt", "w") as f:
     for line in m_mtx:
         np.savetxt(f, line, fmt="%.3f")
 
-with open("k_mtx.txt", "w") as f:
+with open("./sys_matrices/k_mtx.txt", "w") as f:
     for line in k_mtx:
         np.savetxt(f, line, fmt="%.3f")
 
@@ -319,6 +319,6 @@ params["k_gy"] = 0
 params["k_gz"] = 0
 c_mtx = LM.stiffness_matrix
 c_mtx = np.matrix(c_mtx.subs(params))
-with open("c_mtx.txt", "w") as f:
+with open("./sys_matrices/c_mtx.txt", "w") as f:
     for line in c_mtx:
         np.savetxt(f, line, fmt="%.3f")
