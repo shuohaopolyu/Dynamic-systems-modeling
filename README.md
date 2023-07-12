@@ -14,39 +14,42 @@ The full railway vehicle model constructed in this paper is schematically shown 
 
 The equation of motion of the train is formulated based on the Lagrangian principle. Here we denote $L$ as the Lagrangian identity, $T$ as the kinetic energy, $V$ as the potential energy, and we have
 
-$$
-L=T-V
-$$
+<p align="center">
+<img src="https://latex.codecogs.com/svg.image?L=T-V" />
+</p>
 
 The kinetic energy of the vehicle system can be expressed as
 
-$$
-T = T_c + T_b +T_w
-$$
+<p align="center">
+<img src="https://latex.codecogs.com/svg.image?T=T_c&plus;T_b&plus;T_w" />
+</p>
 
 with
 
 <!-- T_c = \frac{1}{2} \left[m_c(\dot{y}_c^2+\dot{z}_c^2)+I_{cx} \dot{\phi}_c^2+I_{cy} \dot{\theta}_c^2+I_{cz} \dot{\psi}_c^2 \right] -->
+<p align="center">
 <img src="https://latex.codecogs.com/svg.image?T_c=\frac{1}{2}\left[m_c(\dot{y}_c^2&plus;\dot{z}_c^2)&plus;I_{cx}\dot{\phi}_c^2&plus;I_{cy}\dot{\theta}_c^2&plus;I_{cz}\dot{\psi}_c^2\right]" />
-
+</p>
 <!-- $$
 T_b = \sum_{i=1}^2 T_{bi} = \sum_{i=1}^2 \frac{1}{2}\left[m_b(\dot{y}_{bi}^2+\dot{z}_{bi}^2)+I_{bx} \dot{\phi}_{bi}^2+I_{by} \dot{\theta}_{bi}^2+I_{bz} \dot{\psi}_{bi}^2 \right]
 $$ -->
-
+<p align="center">
 <img src="https://latex.codecogs.com/svg.image?T_b=\sum_{i=1}^2&space;T_{bi}=\sum_{i=1}^2\frac{1}{2}\left[m_b(\dot{y}_{bi}^2&plus;\dot{z}_{bi}^2)&plus;I_{bx}\dot{\phi}_{bi}^2&plus;I_{by}\dot{\theta}_{bi}^2&plus;I_{bz}\dot{\psi}_{bi}^2\right]" />
-
+</p>
 <!-- $$
 T_w = \sum_{i=1}^4 T_{wi} = \sum_{i=1}^4 \frac{1}{2}\left[m_b(\dot{y}_{wi}^2+\dot{z}_{wi}^2)  + I_{wx} \dot{\phi}_{wi}^2+I_{wz} \dot{\psi}_{wi}^2\right]
 $$ -->
-
+<p align="center">
 <img src="https://latex.codecogs.com/svg.image?T_w=\sum_{i=1}^4&space;T_{wi}=\sum_{i=1}^4\frac{1}{2}\left[m_b(\dot{y}_{wi}^2&plus;\dot{z}_{wi}^2)&plus;I_{wx}\dot{\phi}_{wi}^2&plus;I_{wz}\dot{\psi}_{wi}^2\right]" />
-
+</p>
 The potential energy of the vehicle system can be expressed as
 
-$$
+<!-- $$
 V = V_s + V_p + V_g
-$$
-
+$$ -->
+<p align="center">
+<img src="https://latex.codecogs.com/svg.image?V=V_s&plus;V_p&plus;V_g" />
+</p>
 with
 
 $$
