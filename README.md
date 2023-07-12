@@ -2,10 +2,15 @@
 
 The full railway vehicle model constructed in this paper is schematically shown as follows, which consists of a car body, two bogies, and four wheelsets. The bogies and car body exhibit five types of motion (lateral, vertical, roll, yaw, and pitch), while the wheelsets have four (lateral, vertical, roll, and yaw).
 
-<div align="center">
-	<img src="Images/F_vehicle.png" width=600 alt>
-      <em>Schematic diagram of 31-DOF railway vehicle model</em>
+![My image](Images/F_vehicle.png)
+
+_Schematic diagram of 31-DOF railway vehicle model_
+
+<!-- <div align="center">
+	<img src="Images/F_vehicle.png" width=800 alt>
 </div>
+![Images/F_vehicle.png]
+*Schematic diagram of 31-DOF railway vehicle model* -->
 
 The equation of motion of the train is formulated based on the Lagrangian principle. Here we denote $L$ as the Lagrangian identity, $T$ as the kinetic energy, $V$ as the potential energy, and we have
 
@@ -22,8 +27,14 @@ $$
 with
 
 $$
-T_c = \frac{1}{2} \left[m_c(\dot{y}_c^2+\dot{z}_c^2)+I_{cx} \dot{\phi}_c^2+I_{cy} \dot{\theta}_c^2+I_{cz} \dot{\psi}_c^2 \right] \\\\
-T_b = \sum_{i=1}^2 T_{bi} = \sum_{i=1}^2 \frac{1}{2}\left[m_b(\dot{y}_{bi}^2+\dot{z}_{bi}^2)+I_{bx} \dot{\phi}_{bi}^2+I_{by} \dot{\theta}_{bi}^2+I_{bz} \dot{\psi}_{bi}^2 \right] \\\\
+T_c = \frac{1}{2} \left[m_c(\dot{y}_c^2+\dot{z}_c^2)+I_{cx} \dot{\phi}_c^2+I_{cy} \dot{\theta}_c^2+I_{cz} \dot{\psi}_c^2 \right]
+$$
+
+$$
+T_b = \sum_{i=1}^2 T_{bi} = \sum_{i=1}^2 \frac{1}{2}\left[m_b(\dot{y}_{bi}^2+\dot{z}_{bi}^2)+I_{bx} \dot{\phi}_{bi}^2+I_{by} \dot{\theta}_{bi}^2+I_{bz} \dot{\psi}_{bi}^2 \right]
+$$
+
+$$
 T_w = \sum_{i=1}^4 T_{wi} = \sum_{i=1}^4 \frac{1}{2}\left[m_b(\dot{y}_{wi}^2+\dot{z}_{wi}^2)  + I_{wx} \dot{\phi}_{wi}^2+I_{wz} \dot{\psi}_{wi}^2\right]
 $$
 
