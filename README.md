@@ -2,10 +2,10 @@
 
 The full railway vehicle model constructed in this paper is schematically shown as follows, which consists of a car body, two bogies, and four wheelsets. The bogies and car body exhibit five types of motion (lateral, vertical, roll, yaw, and pitch), while the wheelsets have four (lateral, vertical, roll, and yaw).
 
-<div align="center">
-	<img align="center" src="Images/F_vehicle.png" width=600/>
-    <em>Schematic diagram of 31-DOF railway vehicle model</em>
-</div>
+<p align="center">
+	<img src="Images/F_vehicle.png" width=600 alt>
+      <em>Schematic diagram of 31-DOF railway vehicle model</em>
+</p>
 
 The equation of motion of the train is formulated based on the Lagrangian principle. Here we denote $L$ as the Lagrangian identity, $T$ as the kinetic energy, $V$ as the potential energy, and we have
 
