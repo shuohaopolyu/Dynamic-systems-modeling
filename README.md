@@ -134,4 +134,4 @@ $$
 
 where $\boldsymbol{x}, \dot{\boldsymbol{x}} \in \mathbb{R}^{31}$ is the vector that includes all displacements and velocities of rigid bodies in the system.
 
-For details please check vehicle.py, where a symbolic computation tool sympy is adopted for deriving the vehicle system mass, stiffness and damping matrices.
+For details please check [vehicle.py](./vehicle.py), where a symbolic computation tool [SymPy](https://github.com/sympy/sympy) is adopted for deriving the vehicle system mass, stiffness and damping matrices.
