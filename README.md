@@ -14,7 +14,7 @@ This program aims to derive the system matrices (mass, stiffness and damping mat
 ![Images/F_vehicle.png]
 *Schematic diagram of 31-DOF railway vehicle model* -->
 
-The equation of motion of the train is formulated based on the Lagrangian principle. Here we denote $L$ as the Lagrangian identity, $T$ as the kinetic energy, $V$ as the potential energy, and we have
+The equation of motion of the train is formulated based on the Lagrangian mechanics. Here we denote $L$ as the Lagrangian identity, $T$ as the kinetic energy, $V$ as the potential energy, and we have
 
 <p align="center">
 <img src="https://latex.codecogs.com/svg.image?L=T-V" />
