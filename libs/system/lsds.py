@@ -10,7 +10,7 @@ from tqdm import tqdm
 
 
 
-class MultiDOF:
+class Lsds:
     """
     Establishing the multi-dof model using the mechanical properties of the structural dynamical system.
 
