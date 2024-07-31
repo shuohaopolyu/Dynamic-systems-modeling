@@ -1,5 +1,3 @@
-## Dynamic System Modeling
+## Dynamic System Modeling for Structural and Mechanical Vibrations
 
-**Today is a good day. -- Shuo HAO**
-
-**Tomorrow is also a good day. --Ze HAO**
+This repository is still under development.
