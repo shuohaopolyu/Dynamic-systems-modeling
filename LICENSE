@@ -1,8 +1,3 @@
-### Including the License File
-
-In addition to mentioning the license in your README, don't forget to include a `LICENSE` file in the root of your repository containing the full text of the MIT License. Here's an example of what the `LICENSE` file might look like:
-
-```markdown
 MIT License
 
 Copyright (c) [2024] [Shuo HAO]
