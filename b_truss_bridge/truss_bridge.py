@@ -59,7 +59,7 @@ class truss_bridge(MultiDOF):
     def element_lists(self):
         eles_1_to_6 = [[] for i in range(6)]
         for i in range(6):
-            file_name = f"./2_truss_structure/data/ele_{i+1}.csv"
+            file_name = f"./b_truss_bridge/elements/ele_{i+1}.csv"
             with open(file_name, "r") as f:
                 for line in f:
                     eles_1_to_6[i].append([int(i) for i in line.split(sep=",")])

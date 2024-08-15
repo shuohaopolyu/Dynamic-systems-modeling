@@ -1,6 +1,24 @@
 import numpy as np
+import abc
 
-class Bar3D:
+class elelib(abc.ABC):
+    @abc.abstractmethod
+    def length(self):
+        pass
+
+    @abc.abstractmethod
+    def transformation_matrix(self):
+        pass
+
+    @abc.abstractmethod
+    def stiffness_matrix(self):
+        pass
+
+    @abc.abstractmethod
+    def mass_matrix(self):
+        pass
+
+class Bar3D(elelib):
     """
     3D bar element class
     node1coord: 3D coordinates of node 1, 1d numpy array
@@ -37,15 +55,15 @@ class Bar3D:
         K = np.dot(np.dot(self.T.T, K), self.T)
         return K
 
-    def mass_matrix(self, rho):
+    def mass_matrix(self):
         L = self.length()
-        m = self.A * rho * L / 6
+        m = self.A * self.rho * L / 6
         M = m * np.array([[2, 1],
                             [1, 2]])
         M = np.dot(np.dot(self.T.T, M), self.T)
         return M
 
-class Beam3D:
+class Beam3D(elelib):
     """
     3D beam element class
     node1coord: 3D coordinates of node 1, 1d numpy array
@@ -160,9 +178,3 @@ class Beam3D:
         )
         M = np.dot(np.dot(self.T.T, M), self.T)
         return M
- 
-    
-        
-        
-
-    
