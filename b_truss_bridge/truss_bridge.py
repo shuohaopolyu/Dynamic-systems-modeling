@@ -3,6 +3,7 @@ import matplotlib.pyplot as plt
 from common_modules import MultiDOF
 import pickle
 
+
 class truss_bridge(MultiDOF):
 
     def __init__(
@@ -59,7 +60,7 @@ class truss_bridge(MultiDOF):
     def element_lists(self):
         eles_1_to_6 = [[] for i in range(6)]
         for i in range(6):
-            file_name = f"./b_truss_bridge/elements/ele_{i+1}.csv"
+            file_name = f"./elements/ele_{i+1}.csv"
             with open(file_name, "r") as f:
                 for line in f:
                     eles_1_to_6[i].append([int(i) for i in line.split(sep=",")])
@@ -397,12 +398,14 @@ class truss_bridge(MultiDOF):
 
         return global_matrix
 
-    def plot_mode_shape(self, order=0, factor=40.0):
+    def plot_mode_shape(self, order=1, factor=40.0):
+        from matplotlib import animation
+
         node_coord = self._generate_nodes()
         ele_lists = self.element_lists()
-
+        order -= 1
         # 3D plot
-        fig = plt.figure(figsize=(14, 10))
+        fig = plt.figure(figsize=(6, 6))
         ax = fig.add_subplot(111, projection="3d")
         ax.scatter(
             [i[0] for i in node_coord],
@@ -425,7 +428,7 @@ class truss_bridge(MultiDOF):
         ax.set_axis_off()
         ax.set_aspect("equal")
         v, w = self.freqs_modes()
-        print(v)
+        # print(v)
         # keep to two decimal places of numbers for all elemenbts in v
         v = np.round(v, 3)
         # there are multiple repeated numbers at the start of v, find the first index of the first un-repeated number
@@ -436,6 +439,39 @@ class truss_bridge(MultiDOF):
         #         break
         order_index = first_index + order
         mode_shape = w[:, order_index]
+        scatters = ax.scatter([], [], [], c="r", marker="o")
+        lines = ax.plot([], [], [], color="k")
+        ax.text2D(
+            0.05,
+            0.8,
+            f"Mode {order+1} Frequency: {v[order_index]} Hz",
+            transform=ax.transAxes,
+        )
+
+        # def update(factor):
+        #     for j in range(len(node_coord)):
+        #         node_coord[j][0] += mode_shape[6 * j] * factor
+        #         node_coord[j][1] += mode_shape[6 * j + 1] * factor
+        #         node_coord[j][2] += mode_shape[6 * j + 2] * factor
+        #     scatters.set_data = (
+        #         [i[0] for i in node_coord],
+        #         [i[1] for i in node_coord],
+        #         [i[2] for i in node_coord],
+        #     )
+        #     for ele_list in ele_lists:
+        #         for ele in ele_list:
+        #             node_1 = ele[0]
+        #             node_2 = ele[1]
+        #             lines.set_data(
+        #                 [node_coord[node_1][0], node_coord[node_2][0]],
+        #                 [node_coord[node_1][1], node_coord[node_2][1]],
+        #                 [node_coord[node_1][2], node_coord[node_2][2]],
+        #             )
+
+        #     return (scatters)
+
+        # anim = animation.FuncAnimation(fig, update, frames=100, interval=60, blit=True)
+
         for i in range(len(node_coord)):
             node_coord[i][0] += mode_shape[6 * i] * factor
             node_coord[i][1] += mode_shape[6 * i + 1] * factor
